@@ -30,6 +30,8 @@
 		D55B8ED723ADA73800C6E337 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D55B8ECA23ADA73800C6E337 /* stmarylake.jpg */; };
 		D55B8ED823ADA73800C6E337 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D55B8ECB23ADA73800C6E337 /* chilkoottrail.jpg */; };
 		D55B8ED923ADA73800C6E337 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D55B8ECC23ADA73800C6E337 /* rainbowlake.jpg */; };
+		D55B8EDC23ADAA1A00C6E337 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B8EDB23ADAA1A00C6E337 /* LandmarkRow.swift */; };
+		D55B8EDE23ADACDD00C6E337 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B8EDD23ADACDD00C6E337 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		D55B8ECA23ADA73800C6E337 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		D55B8ECB23ADA73800C6E337 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		D55B8ECC23ADA73800C6E337 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		D55B8EDB23ADAA1A00C6E337 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		D55B8EDD23ADACDD00C6E337 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				D55B8E9F23AD904A00C6E337 /* AppDelegate.swift */,
 				D55B8EA123AD904A00C6E337 /* SceneDelegate.swift */,
 				D55B8EA323AD904A00C6E337 /* LandmarkDetail.swift */,
+				D55B8EDB23ADAA1A00C6E337 /* LandmarkRow.swift */,
+				D55B8EDD23ADACDD00C6E337 /* LandmarkList.swift */,
 				D55B8EDA23ADA74B00C6E337 /* SupportingViews */,
 				D55B8EBF23ADA73800C6E337 /* Resources */,
 				D55B8EA523AD904E00C6E337 /* Assets.xcassets */,
@@ -238,8 +244,10 @@
 				D55B8EA023AD904A00C6E337 /* AppDelegate.swift in Sources */,
 				D55B8EBD23ADA72B00C6E337 /* Data.swift in Sources */,
 				D55B8EB423AD99D900C6E337 /* CircleImage.swift in Sources */,
+				D55B8EDE23ADACDD00C6E337 /* LandmarkList.swift in Sources */,
 				D55B8EB623AD9D1E00C6E337 /* MapView.swift in Sources */,
 				D55B8EA223AD904A00C6E337 /* SceneDelegate.swift in Sources */,
+				D55B8EDC23ADAA1A00C6E337 /* LandmarkRow.swift in Sources */,
 				D55B8EA423AD904A00C6E337 /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
