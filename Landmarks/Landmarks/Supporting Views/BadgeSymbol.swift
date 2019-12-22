@@ -1,10 +1,9 @@
-//
-//  BadgeSymbol.swift
-//  Landmarks
-//
-//  Created by Jex Jang on 2019/12/22.
-//  Copyright © 2019 twiiks. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that display a symbol in a badge.
+*/
 
 import SwiftUI
 

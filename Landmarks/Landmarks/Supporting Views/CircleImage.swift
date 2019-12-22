@@ -1,15 +1,15 @@
-//
-//  CircleImage.swift
-//  Landmarks
-//
-//  Created by Jex Jang on 2019/12/21.
-//  Copyright © 2019 twiiks. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that clips an image to a circle and adds a stroke and shadow.
+*/
 
 import SwiftUI
 
 struct CircleImage: View {
     var image: Image
+
     var body: some View {
         image
             .clipShape(Circle())
