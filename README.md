@@ -10,7 +10,7 @@ SwiftUI tutorial from Apple
 - [x] [Drawing Paths and Shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
 - [x] [Animating Views and Transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
 ### App Design and Layout
-- [ ] [Composing Complex Interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
+- [x] [Composing Complex Interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
 - [ ] [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
 ### Framework Integration
 - [ ] [Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
