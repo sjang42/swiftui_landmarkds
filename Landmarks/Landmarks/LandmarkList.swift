@@ -1,9 +1,9 @@
 /*
- See LICENSE folder for this sample’s licensing information.
- 
- Abstract:
- A view showing a list of landmarks.
- */
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing a list of landmarks.
+*/
 
 import SwiftUI
 
@@ -36,10 +36,10 @@ struct LandmarksList_Previews: PreviewProvider {
         ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
             NavigationView {
                 LandmarkList()
-                    .environmentObject(UserData())
             }
             .previewDevice(PreviewDevice(rawValue: deviceName))
             .previewDisplayName(deviceName)
         }
+        .environmentObject(UserData())
     }
 }
