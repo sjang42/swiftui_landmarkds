@@ -1,10 +1,9 @@
-//
-//  ProfileEditor.swift
-//  Landmarks
-//
-//  Created by Jex Jang on 2019/12/29.
-//  Copyright © 2019 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+An editable profile view.
+*/
 
 import SwiftUI
 
@@ -20,8 +19,7 @@ struct ProfileEditor: View {
     var body: some View {
         List {
             HStack {
-                Text("Username")
-                    .bold()
+                Text("Username").bold()
                 Divider()
                 TextField("Username", text: $profile.username)
             }
@@ -51,8 +49,6 @@ struct ProfileEditor: View {
                     displayedComponents: .date)
             }
             .padding(.top)
-            
-            
         }
     }
 }

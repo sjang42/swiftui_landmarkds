@@ -52,7 +52,8 @@ struct CategoryHome: View {
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
-                ProfileHost().environmentObject(self.userData)
+                ProfileHost()
+                    .environmentObject(self.userData)
             }
         }
     }
@@ -68,6 +69,5 @@ struct FeaturedLandmarks: View {
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
-            .environmentObject(UserData())
     }
 }
